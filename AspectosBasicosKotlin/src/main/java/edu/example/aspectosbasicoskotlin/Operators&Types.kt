@@ -8,4 +8,6 @@ fun main(){
     println(2.0*3.5)
 
     println(6*50)
+    println(6.0*50.0)
+    print
 }
