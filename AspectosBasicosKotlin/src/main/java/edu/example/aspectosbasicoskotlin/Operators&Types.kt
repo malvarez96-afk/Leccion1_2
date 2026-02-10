@@ -9,5 +9,5 @@ fun main(){
 
     println(6*50)
     println(6.0*50.0)
-    print
+    println(6+2)
 }
