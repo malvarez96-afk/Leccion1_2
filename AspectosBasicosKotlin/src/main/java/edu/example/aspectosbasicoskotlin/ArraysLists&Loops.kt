@@ -44,4 +44,28 @@ fun main(){
     for ((index, element) in schoool.withIndex()) {
         println("Item at $index is $element\n")
     }
+
+    for (i in 1..5) print(i)
+    print("\n")
+    for (i in 5 downTo 1) print(i)
+    print("\n")
+    for (i in 3..6 step 2) print(i)
+    print("\n")
+    for (i in 'd'..'g') print(i)
+    print("\n")
+
+    var bubbles = 0
+    while (bubbles < 50) {
+        bubbles++
+    }
+    println("$bubbles bubbles in the water\n")
+
+    do {
+        bubbles--
+    } while (bubbles > 45)
+    println("$bubbles bubbles in the water\n")
+
+    repeat(2) {
+        println("A fish is swimming")
+    }
 }
