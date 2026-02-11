@@ -40,4 +40,8 @@ fun main(){
     for (element in schoool) {
         print(element + " ")
     }
+
+    for ((index, element) in schoool.withIndex()) {
+        println("Item at $index is $element\n")
+    }
 }
